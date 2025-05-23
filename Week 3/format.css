@@ -1,0 +1,47 @@
+/* html style */
+
+html {
+    background-color: yellow;
+}
+
+/* header styles */
+
+h1 {
+    color: blue;
+    font-size: 28px;
+    font: bold;
+    padding-right: 6 0px;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    font: bold;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font: bold;
+}
+
+/* Body style */
+
+body {
+    width: 650px;
+    border: double blue;
+    border-width: 10px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* footer style */
+
+footer {
+    border-top: solid blue;
+    height: 70px;
+}

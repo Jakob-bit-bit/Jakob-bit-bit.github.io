@@ -1,0 +1,183 @@
+/* html style */
+
+html {
+
+    background-color: wheat;
+}
+
+/* Body style */
+
+body {
+
+    border: 2px solid black;
+    width: 1200px;
+    background-color: lightcoral;
+    padding: 2px;
+    margin: 0 auto;
+    
+}
+
+/* header style */
+
+header {
+
+    background-color:blueviolet;
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+header img {
+
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    float: left; 
+    margin: 40px;
+}
+
+/* header headings */
+
+header h1 {
+
+    color: lightseagreen ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+    padding: 100px;
+
+}
+
+header h2 {
+    
+    color: lightskyblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin: 50px;
+}
+
+/* main style */
+
+main section img#feature {
+
+    width: 1200px;
+    height: 100px;
+    margin: 50px auto;
+    display: block;
+
+}
+
+.intro {
+
+    border: 2px solid red;
+    background-color:aliceblue;
+}
+
+nav ul {
+
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    font-size: 40px;
+    color: lightskyblue;
+}
+
+nav ul li a:link {
+    color:blueviolet;
+}
+
+nav ul li a:visited {
+    color: red;
+}
+
+nav ul li a:hover {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+
+    color:yellow;
+    text-decoration:none;
+}
+
+body p {
+
+    font-size: 21px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 40;
+}
+
+/* footer style */
+
+footer {
+
+    background-color: blue;
+    height: 250px;
+    border-top: 2px solid black;
+
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+footer p a {
+
+    text-decoration: underline;
+}
+
+table {
+    border: 2px;
+}
+
+caption {
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+    font-style: italic;
+    font-size: 23px;
+    text-shadow: 3px 3px 14px red;
+    margin: 10px auto;
+    display: block;
+}
+
+th, td {
+    border: 2px-solid
+}
+
+tr:hover{
+    background-color: white;
+}
+
+tr:first-child {
+    color: purple;
+}
+
+tr:last-child {
+    background-color: lightpink;
+}
+
+tr:nth-child(2) {
+    background-color: skyblue;
+}
+
+td:last-of-type {
+    color: darkgray;
+}
+
