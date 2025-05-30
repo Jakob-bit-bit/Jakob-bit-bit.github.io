@@ -1,0 +1,107 @@
+/* The first table */
+
+.table1 {
+    border-collapse: collapse;
+}
+
+.table1 td {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.table1 td:last-child {
+    border-right: none;
+}
+
+.table1 th:last-child {
+    border-right: none;
+}
+
+.align {
+    text-align: right;
+}
+
+.table1 td:nth-child(2) {
+    border-right: none;
+}
+
+.table1 th:nth-child(2) {
+    border-right: none;
+}
+
+.table1 td {
+    padding-left: 10px;
+}
+
+.alignh {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* The second table */
+
+.table2 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 550px;
+}
+
+header {
+    padding-left: 190px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.padding {
+    padding-bottom: 48px;
+    padding-left: 10px;
+}
+
+.padding2 {
+    padding-bottom: 22px;
+    padding-left: 10px;
+}
+
+.padding3 {
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.align2 {
+    text-align: left;
+}
+
+.text {
+    background-color: yellow;
+}
+
+.align3 {
+    background-color: yellow;
+    text-align: right;
+}
+
+.align4 {
+    text-align: right;
+    padding-right: 30px;
+    background-color: yellow;
+}
+
+/* table2 borders */
+
+.table2 {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.table2 td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.table2 tr:first-child {
+    border-bottom: 1px solid black;
+}
+
+
+

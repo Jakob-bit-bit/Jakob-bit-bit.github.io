@@ -1,0 +1,15 @@
+html {
+
+
+
+}
+
+h4::first-letter { /*can also do first-line */
+    font-size: 45px;
+}
+
+h4 {
+
+    text-shadow: 4px 5px 10px red;
+    /* horizontal, vertical, blurrines of the shadow  */
+}
