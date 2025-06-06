@@ -28,6 +28,7 @@ header img {
 
 h3, h4, p {
     padding-left: 15px;
+    color: blue;
 }
 
 body {
@@ -51,5 +52,7 @@ footer {
     border-top: 5px solid black;
     border-bottom: 15px solid black;
 }
+
+
 
 
