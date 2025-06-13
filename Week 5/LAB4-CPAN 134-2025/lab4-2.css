@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    padding-left: 820px;
+    padding-left: 350px;
 }
 
 nav ul {
@@ -14,7 +14,7 @@ nav ul {
     gap: 30px;
     list-style-type: none;
     text-transform: uppercase;
-    padding-left: 600px;
+    padding-left: 410px;
 }
 
 nav li {
@@ -27,21 +27,24 @@ nav a {
 }
 
 #mainPhoto img {
-    width: 1000px;
+    width: 800px;
     padding-left: 350px;
 }
 
 #communities {
-    background: #fd05c8;
-    color: #110c13;
+    background: #E4DFDA;
+    color: #52414C;
+    margin-bottom: -15px;
+    margin-left: 350px;
+    margin-right: 310px;
+    margin-top: -20px;
 }
 
 #communities h2 {
     margin: 20px;
-    margin-left: 50px;
-    padding-top: 10px;
-    margin-left: 480px;
-    padding-left: 250px;
+    padding-left: 20px;
+    padding-top: 50px;
+    text-transform: uppercase;
 }
 
 #communities ul {
@@ -49,15 +52,25 @@ nav a {
     list-style-type: none;
     display: flex;
     gap: 50px;
-    margin-left: 480px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 #communities li {
     display: inline-block;
+    text-transform: uppercase;
 }
 
 footer {
-    background-color: blue;
-    
+    background-color: #52414C;
+    color: white;
+    font-size: 10px;
+    margin-left: 350px;
+    margin-right: 310px;
+}
+
+footer p {
+    padding-left: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-transform: uppercase;
 }
