@@ -1,0 +1,105 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 850px;
+    margin: 0 auto;
+    border: 3px solid #800000;
+    background-color: #fffded;
+	height: 910px;
+}
+
+/* the styles for the header */ 
+header {
+	background-image: linear-gradient(30deg,#d98c62, #fff8e6, white, #d98c62);
+	border-bottom: 2px solid #800000;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+header h2 {
+	color: #800000;
+	padding-bottom: .25em;
+}
+
+header img {
+	float: left;
+	padding-right: 20px;
+}
+
+.shadow {
+	font-style: italic;
+	text-shadow: 2px 2px 2px darkred;
+}
+
+
+/* the styles for the main element */
+
+section {
+	float: right;
+	width: 575px;
+	padding-left: 20px;
+	padding-top: 10px;
+	column-count: 2;
+	padding-right: 20px;
+}
+
+section h1 {
+	color: #800000;
+	margin-top: -1px;
+	font-size: 28px;
+	margin-bottom: 8px;
+}
+
+section h1, h2 {
+	column-span: all;
+	padding-bottom: 5px;
+}
+
+
+article p {
+	padding-bottom: .5em;
+}
+article img {
+	margin: .55em 0 1em 0em;
+	float: left;
+	width: 275px;
+	border: 2px solid black;
+}
+aside {
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 215px;
+}
+
+aside img {
+	padding-bottom: 20px;
+}
+
+aside h2 {
+	color: #800000;
+	font-size: 150%;
+	
+}
+
+a:hover {
+	font-style: italic;
+}
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+	margin-top: 132px;
+	
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
