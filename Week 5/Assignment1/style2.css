@@ -1,0 +1,85 @@
+html {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: darkred;
+}
+
+
+/* headings */
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+/* body styles */
+
+body {
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+  border-left: 10px solid black;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: lightcoral;
+}
+
+/* link style */
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+a:hover {
+  color: #0056b3;              
+  text-decoration: underline;  
+}
+
+/* class styles */
+
+.link {
+  padding-left: 560px;
+}
+
+.artists {
+  padding-left: 350px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  border-bottom: 5px solid gray;
+}
+
+/* text styles */
+
+p {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* images style */
+
+img {
+  border-bottom: 2px solid rgb(231, 231, 146);
+  border-bottom-width: 6px;
+  border-top: 2px solid rgb(231, 231, 142);
+  border-top-width: 6px;
+  border-right: 10px solid lightgray;
+  border-left: 10px solid lightgray;
+  margin-bottom: -30px;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: -30px;
+}

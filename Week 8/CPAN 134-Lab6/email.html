@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/email.css">
+	<title>Halloween Store</title>
+</head>
+
+<header>
+	<img src="images/pumpkin.gif" alt="pumpkin">
+	<h1>The Halloween Store</h1>
+	<h3>For the little Goblin in all of us!</h3>
+</header>
+
+<body>
+	<nav id="nav1">
+		<a href="home.html" class="link1">Home</a>
+		<a href="product.html" class="link1">Product List</a>
+		<a href="personal.html" class="link1">Personal</a>
+		<a href="decorate.html" class="link1">Decorating Ideas</a>
+		<a href="email.html" class="currentlink">Join Email</a>
+	</nav>
+
+	<main>
+		<h2>Please enter the following information:</h2>
+		<form action="process.php">
+			<label for="firstName">First Name: </label>
+			<input type="text" id="firstName" name="firstName" required autofocus><br><br>
+
+			<label for="lastName">Last Name: </label>
+			<input type="text" id="lastName" name="lastName" required><br><br>
+
+			<label for="email" id="labelE">Email: </label>
+			<input type="text" id="email" name="email" required><br><br>
+
+			<label for="zipcode" id="labelZ">Zip Code: </label>
+			<input type="text" id="zipcode" name="zipcode" pattern="[0-9]{5}" maxlength="5" placeholder="Optional but appreciated: 99999"><br><br>
+			
+			<br>
+			<div>
+				<a href="subscribe.html" id="sub">Subscribe</a>
+			</div>
+ 
+		</form>
+	</main>
+
+	<aside>
+		<nav id="nav2">
+		<ul>
+			<li><a href="props.html">Props</a></li>
+			<li><a href="costumes.html">Costumes</a></li>
+			<li><a href="special.html">Special FX</a></li>
+			<li><a href="masks.html">Masks</a></li>
+		</ul>
+		</nav>
+	</aside>
+
+	<footer>
+		<p>&copy; 2018 Ben Murach</p>
+	</footer>
+
+</body>
+
+</html>

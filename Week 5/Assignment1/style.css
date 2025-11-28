@@ -1,0 +1,111 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+  background-color: darkcyan;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+/* images style */
+
+.img1 {
+  margin-top: -30px;
+  width: 600px;
+  height: 750px;
+  border-bottom: 2px solid rgb(231, 231, 146);
+  border-bottom-width: 6px;
+  margin-left: 620px;
+  border-top: 2px solid rgb(231, 231, 142);
+  border-top-width: 6px;
+  border-right: 10px solid lightgray;
+  border-left: 10px solid lightgray;
+}
+
+.img2 {
+  width: 600px;
+  height: 750px;
+  border-bottom: 2px solid rgb(231, 231, 146);
+  border-bottom-width: 6px;
+  margin-left: 620px;
+  border-top: 2px solid rgb(231, 231, 142);
+  border-top-width: 6px;
+  border-right: 10px solid lightgray;
+  border-left: 10px solid lightgray;
+}
+
+/* headings */
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  box-shadow: 0 0 10px 20px lightgray;
+  margin-left: 630px;
+  margin-right: 630px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: darkblue;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+}
+
+/* links */
+
+.link {
+  padding-left: 780px;
+}
+
+a {
+  color: beige;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #0056b3;              
+  text-decoration: underline;  
+}
+
+/* texts styles */
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* list styles */
+
+ul, li {
+  text-align: center;
+  list-style-position: inside;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  color: navy;
+}
+
+/* footer styles */
+
+footer {
+  padding-top: 15px;
+  border-top: 2px solid black;
+}
+

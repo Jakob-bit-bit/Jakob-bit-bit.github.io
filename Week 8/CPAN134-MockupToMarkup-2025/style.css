@@ -1,0 +1,136 @@
+/*ASSIGNMENT 2 - CREATE WEBPAGE FROM MOCKUP*/
+
+/*CLIENT COLOURS & FONTS
+Background: #e6e6e6;
+Header and Footer Black: #1b1b1b
+Navigation bar/sidebar/Overview box: white
+Accent blue: #5e9cae
+
+FONT-FAMILY is Helvetica, Arial, sans-serif;
+
+Width for main container should be 1000px.
+
+*/
+
+/* html style */
+
+html {
+    width: 1150px;
+    height: 800px;
+    margin-left: 350px;
+}
+
+/* header style */
+
+#header1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    background-color:#5D9CA8;
+    width: 1030px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+h2 {
+    background-color:#5D9CA8;
+    margin-right: 100px;
+    color: white;
+    font-weight: 100;
+    padding-top: 20px;
+    margin-left: -50px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+/* section style */
+
+#s1 {
+    margin-left: 40px;
+}
+
+/* div style */
+
+#div1 {
+    padding-left: 20px;
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* body style */
+
+body {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    width: 1150px;
+}
+
+/* aside style */
+
+aside {
+    float: right;
+    width: 300px;
+    height: 400px;
+
+}
+
+/* img style */
+
+.logo {
+    padding-left: 60px;
+}
+
+.mainImg {
+    padding-left: 40px;
+}
+
+/* nav style */
+
+nav {
+    padding-right: 60px;
+}
+
+#links {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+a:hover {
+    color: white;
+    background-color: #5D9CA8;
+}
+
+/* list style */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 60px;
+}
+
+footer {
+    background-color: rgb(24, 24, 24);
+}
+
+footer p {
+    color: white;
+    padding: 40px;
+}
